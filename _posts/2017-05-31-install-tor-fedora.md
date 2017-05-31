@@ -38,3 +38,5 @@ sudo chown moochingal:moochingal /run/tor
 For example, in firefox, you will have to configure as ,
 
 ![Firefox](http://cooliscool.github.com/images/firefox.png)
+
+Thanks for reading the post!
