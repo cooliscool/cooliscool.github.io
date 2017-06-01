@@ -20,7 +20,7 @@ Now, try running Tor proxy using the command 'tor' in terminal.
 
 #### This may end up with the following error : 
 
-![Error1](http://cooliscool.github.com/images/error1.png)
+![Error1](http://cooliscool.github.com/images/error.png)
 
 So what you've to do is change the ownership of the folder **/run/tor** . 
 Run the following command (replace **user** with your current account username).
