@@ -1,9 +1,9 @@
 ---
-title: Training a Deep Network for detecting traffic signs.
+title: Training a Deep Network for detecting objects.
 updated: 2017-7-11 15:02
 ---
 
-## Training a Deep Learning Network for detecting Traffic signs. 
+## Training a Deep Learning Network for detecting objects
 
 <div class='divider'> </div>
 
