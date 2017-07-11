@@ -12,6 +12,7 @@ Well, I assume you are comfortable with installing software in an Ubuntu system.
 1. [Tensorflow](https://www.tensorflow.org/install/install_linux) ( CPU or GPU version depending , and also depenging on what version of python you use, install it appropriately from tensorflow website. )
 2. [labelImg](https://github.com/tzutalin/labelImg) - for annotating and preparing your dataset for training. 
 3. [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/object_detection) - Clone this repo, we will be doing the training using this nice API here. 
+
 ## How we're gonna proceed
 If you've cloned labelImg, checkout how it works, it's really cool. It can basically output your annotated images in the format of PASCAL dataset.
 
@@ -109,9 +110,11 @@ inference_graph_path is the output file.
 
 ## Running inference post generating inference graph
 
-Use the code run_detection_onFilesIndesktop.py for running test on images.
+Use the code on_images.py for running test on images.
 You can put all the images in a folder. It will read and produce output for all images in the folder output/
 
-Use the code run_detection_onVideoInDesktop.py for running the test in a video. Don't forget to specify the paths of input and output files.
+Use the code on_video.py for running the test in a video. Don't forget to specify the paths of input and output files.
 
+Grab the code [here](https://gist.github.com/cooliscool/6a7b8fc19ea310a17870ebd8bcd8f931).
 
+Thankyou!!
