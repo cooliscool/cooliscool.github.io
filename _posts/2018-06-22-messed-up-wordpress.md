@@ -58,8 +58,11 @@ That website was running perfectly.
 So finally,
 Endnote:
 
+
 ###### Always keep a backup for your website. ( ! Without messing it up like this ) 
+
 ###### If you don't know to use a tool, don't do random stuff, it can turn into a bomb.
 
 
-Thanks emojipedia for the emoticons [emojipedia.org](emojipedia.org)
+Thanks emojipedia for the emoticons [emojipedia.org](emojipedia.org) !
+Thanks for reading the post niggas!
