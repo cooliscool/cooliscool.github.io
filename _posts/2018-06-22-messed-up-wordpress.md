@@ -64,5 +64,5 @@ Endnote:
 ###### If you don't know to use a tool, don't do random stuff, it can turn into a bomb.
 
 
-Thanks emojipedia for the emoticons [emojipedia.org](www.emojipedia.org) !
+Thanks emojipedia for the emoticons [emojipedia.org](http://www.emojipedia.org) !
 Thanks for reading the post niggas!
