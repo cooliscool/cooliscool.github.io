@@ -51,11 +51,15 @@ Google!
 
 #### Google has a fix for almost everything.
 Apparently, worpress's index.php was just a representative, which just loads the theme. Yo! That means, life saved. 
- Download new wordpress install from official Wordpress website, and replace corrupted `index.php` with this.
- Hola! 
- Life is saved. 
- That website was running perfectly.
- So finally,
- Endnote:
- ###### Always keep a backup for your website. ( ! Without messing it up like this ) 
- ###### If you don't know to use a tool, don't do random stuff, it can turn into a bomb.
+Download new wordpress install from official Wordpress website, and replace corrupted `index.php` with this.
+Hola! 
+Life is saved. 
+That website was running perfectly.
+So finally,
+Endnote:
+
+###### Always keep a backup for your website. ( ! Without messing it up like this ) 
+###### If you don't know to use a tool, don't do random stuff, it can turn into a bomb.
+
+
+Thanks emojipedia for the emoticons [emojipedia.org](emojipedia.org)
