@@ -5,4 +5,4 @@ title: About
 
 ## Thanks for dropping by !
 ### I'm Ajmal
-### A hopeless soul. Always curious about how things work. Esp. computers, humans, life. Getting closer there day by day.  
+### Curious about how things work. Esp. computers, humans, life. Getting better there day by day.  
