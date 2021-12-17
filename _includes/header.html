@@ -1,16 +1,7 @@
 <aside class="logo">
-
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'About the Author' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Home' %}
-	{% endif %}
-
-	<a href="{{ link | prepend: site.baseurl }}">
+	<a href="{{ site.parent_site }}">
 		<img src="http://cooliscool.github.io/assets/moochi.jpg" class="gravatar">
 	</a>
-	<span class="logo-prompt">{{ prompt }}</span>
+	<span class="logo-prompt">Back to moochi.tech</span>
 
 </aside>
