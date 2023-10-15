@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color-white: #e5e5e5;
+    --color-base : #303841;
+}
+
+body{
+    background-color:var(--color-base);
+    color: var(--color-white);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georama', sans-serif;
+    cursor: url(../images/icons/cursor1.svg), crosshair;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width:90%;
+}
+
+
+#p5Canvas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* .moochi-avatar{
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+    margin: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+
+h1{
+    font-size: 2.5em;
+    font-weight:600;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: 400;
+    /* text-align: center; */
+    padding: 0 2em;
+}
+h4{
+font-weight:100;
+}
+.danger{
+    color: #eb464c;
+}
+
+.socialpanel{
+    display: flex;
+    justify-content: center;
+}
+.socialpanel>a{
+    border-bottom: 4px dotted #00000000;
+}
+.socialpanel>a:hover{
+    border-bottom: 4px dotted #000000ff;
+}
+.socialpanel>a>img{
+    margin: 1em;
+}
+
+
+.sections{
+    display: flex;
+    justify-content: center;
+}
+.sections>a{
+    font-size: 1.5em;
+    color: var(--color-white);;
+    border-bottom: 4px dotted #00000000;
+    padding: 0.4em 0.8em;
+}
+.sections>a:hover{
+    border-bottom: 4px dotted var(--color-white);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .mobile-expand{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+/* for the root of all blogs */
+
+img.sase{
+    margin:2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a.articlelink{
+    color: white;   
+}
+a.articlelink:hover{
+    text-decoration: underline;
+}
+
+ul.articlelinks{
+    margin:0; padding: 0; border: 0;
+}
