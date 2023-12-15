@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parse Hash Value</title>
+
+  <script>
+  function processHash() {
+    hashValue = decodeURIComponent(window.location.hash.substring(1)) 
+
+    function sanitizeInput(input){
+      return input.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    }
+
+    sanitized = sanitizeInput(hashValue);
+    sink = document.getElementById('container');
+    sink.innerHTML = sanitized;
+  }
+</script>
+</head>
+<body onload="processHash()">
+  DOM-XSS through location.hash with sanitization test
+<div id="container">
+</div>
+</body>
+</html>
